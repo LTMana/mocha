@@ -4,7 +4,8 @@
   "description": "代码测试相关",
   "main": "app.js",
   "scripts": {
-    "test": "mocha test/mocha.js"
+    "test": "mocha test/mocha.js",
+    "cover": "istanbul cover _mocha test/mocha.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "chai": "^4.1.2",
     "eslint": "^4.11.0",
     "eslint-plugin-html": "^4.0.0",
+    "istanbul": "^0.4.5",
     "mocha": "^4.0.1"
   }
 }
